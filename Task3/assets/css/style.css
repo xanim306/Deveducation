@@ -1,0 +1,29 @@
+
+.some_date{
+    margin-left: 30px;
+}
+.topic{
+    border:3px solid black;
+    margin-left: 7px;
+}
+.topic_text{
+    margin-left: 10px;
+
+   
+}
+.box{
+    position: relative; 
+}
+p{
+   
+    display: inline-block;
+
+}
+
+.box-inner{
+    position: absolute;
+    bottom: -10px;
+}
+.info_2{
+    margin-left: 20px;
+}
