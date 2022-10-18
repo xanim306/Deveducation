@@ -1,0 +1,225 @@
+header {
+  background-color: #FFFAEF;
+}
+header .nav_container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+header .nav_container nav {
+  display: flex;
+  font-weight: 400;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav_container nav a {
+  margin-right: 12px;
+}
+header .nav_container nav .logo {
+  color: #00C08B;
+  font-style: italic;
+  font-size: 22px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #006450;
+}
+
+.shop_now {
+  background-image: url("../../../image/Rectangle.jpg");
+  width: 100%;
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.shop_now .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 90px;
+}
+.shop_now .main_text {
+  color: #fffaef;
+  font-weight: 200px;
+  font-size: 30px;
+}
+.shop_now button {
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  text-align: center;
+  background: #e1ff32;
+  border: transparent;
+}
+
+.section {
+  position: relative;
+  padding-top: 100px;
+  background: #e5e5e5;
+}
+.section .line {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: 30px;
+  width: 1400px;
+  margin: auto;
+  height: 3px;
+  background: #006450;
+}
+.section p {
+  text-align: center;
+  color: #006450;
+  font-weight: 400;
+  font-size: 25px;
+}
+.section .card_info {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 120px;
+}
+.section img {
+  width: 683px;
+  height: 683px;
+}
+.section .shower {
+  position: absolute;
+  top: 30px;
+  padding-left: 95px;
+}
+.section .shower p {
+  color: #FFFAEF;
+}
+.section .shower_info {
+  position: absolute;
+  top: 80px;
+  padding-left: 30px;
+}
+.section .shower_info p {
+  text-align: center;
+  color: #FFFAEF;
+}
+.section button {
+  border: none;
+  width: 600px;
+  height: 50px;
+  background: #e1ff32;
+  font-size: 20px;
+}
+
+.summer {
+  position: absolute;
+  top: 30px;
+  padding-left: 95px;
+}
+.summer p {
+  color: #FFFAEF;
+}
+
+.summer_info {
+  position: absolute;
+  top: 80px;
+  padding-left: 30px;
+}
+.summer_info p {
+  text-align: center;
+  color: #FFFAEF;
+}
+
+.dental {
+  position: absolute;
+  top: 30px;
+  padding-left: 95px;
+}
+.dental p {
+  color: #FFFAEF;
+}
+
+.dental_info {
+  position: absolute;
+  top: 80px;
+  padding-left: 30px;
+}
+.dental_info p {
+  text-align: center;
+  color: #FFFAEF;
+}
+
+.hair_care {
+  position: absolute;
+  top: 30px;
+  padding-left: 95px;
+}
+.hair_care p {
+  color: #FFFAEF;
+}
+
+.hair_care_info {
+  position: absolute;
+  top: 80px;
+  padding-left: 30px;
+}
+.hair_care_info p {
+  text-align: center;
+  color: #FFFAEF;
+}
+
+.bh_text {
+  position: absolute;
+  bottom: 200px;
+  right: 180px;
+  width: 670px;
+  height: 186px;
+}
+.bh_text p {
+  font-size: 56px;
+  text-align: center;
+}
+
+.signup {
+  position: absolute;
+  bottom: 15px;
+  right: 660px;
+}
+.signup p {
+  text-transform: lowercase;
+  font-size: 20px;
+}
+
+.plastic_first {
+  width: 647px;
+  height: 88px;
+}
+
+.plastic_second {
+  padding-top: 50px;
+  width: 647px;
+  height: 132px;
+  line-height: 44px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: red;
+  width: 30px;
+  height: 200px;
+}
