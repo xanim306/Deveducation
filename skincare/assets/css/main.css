@@ -26,6 +26,7 @@ header .nav_container nav .logo {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.4px;
 }
 
 a {
@@ -48,178 +49,82 @@ a {
   justify-content: space-between;
   padding: 90px;
 }
-.shop_now .main_text {
+.shop_now .container .main_text {
   color: #fffaef;
-  font-weight: 200px;
+  font-weight: 200;
   font-size: 30px;
 }
-.shop_now button {
-  width: 150px;
-  height: 50px;
-  font-size: 15px;
+.shop_now .container button {
+  width: 201px;
+  height: 64px;
+  background-color: #E1FF32;
   text-align: center;
-  background: #e1ff32;
-  border: transparent;
-}
-
-.section {
-  position: relative;
-  padding-top: 100px;
-  background: #e5e5e5;
-}
-.section .line {
-  position: absolute;
-  left: 2%;
-  right: 2%;
-  top: 30px;
-  width: 1400px;
-  margin: auto;
-  height: 3px;
-  background: #006450;
-}
-.section p {
-  text-align: center;
-  color: #006450;
-  font-weight: 400;
-  font-size: 25px;
-}
-.section .card_info {
-  position: relative;
-  width: 600px;
-  height: 600px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-top: 120px;
-}
-.section img {
-  width: 683px;
-  height: 683px;
-}
-.section .shower {
-  position: absolute;
-  top: 30px;
-  padding-left: 95px;
-}
-.section .shower p {
-  color: #FFFAEF;
-}
-.section .shower_info {
-  position: absolute;
-  top: 80px;
-  padding-left: 30px;
-}
-.section .shower_info p {
-  text-align: center;
-  color: #FFFAEF;
-}
-.section button {
   border: none;
-  width: 600px;
-  height: 50px;
-  background: #e1ff32;
-  font-size: 20px;
+  line-height: 64px;
 }
 
-.summer {
-  position: absolute;
-  top: 30px;
-  padding-left: 95px;
+.plastic_waste {
+  background-color: #E5E5E5;
 }
-.summer p {
-  color: #FFFAEF;
+.plastic_waste .container {
+  padding-top: 80px;
 }
-
-.summer_info {
-  position: absolute;
-  top: 80px;
-  padding-left: 30px;
+.plastic_waste .container .line {
+  width: 1390px;
+  height: 2px;
+  background-color: #006450;
+  margin: 0 auto;
+  margin-bottom: 60px;
 }
-.summer_info p {
+.plastic_waste .container .section_header {
   text-align: center;
-  color: #FFFAEF;
-}
-
-.dental {
-  position: absolute;
-  top: 30px;
-  padding-left: 95px;
-}
-.dental p {
-  color: #FFFAEF;
-}
-
-.dental_info {
-  position: absolute;
-  top: 80px;
-  padding-left: 30px;
-}
-.dental_info p {
-  text-align: center;
-  color: #FFFAEF;
-}
-
-.hair_care {
-  position: absolute;
-  top: 30px;
-  padding-left: 95px;
-}
-.hair_care p {
-  color: #FFFAEF;
-}
-
-.hair_care_info {
-  position: absolute;
-  top: 80px;
-  padding-left: 30px;
-}
-.hair_care_info p {
-  text-align: center;
-  color: #FFFAEF;
-}
-
-.bh_text {
-  position: absolute;
-  bottom: 200px;
-  right: 180px;
-  width: 670px;
-  height: 186px;
-}
-.bh_text p {
-  font-size: 56px;
-  text-align: center;
-}
-
-.signup {
-  position: absolute;
-  bottom: 15px;
-  right: 660px;
-}
-.signup p {
-  text-transform: lowercase;
-  font-size: 20px;
-}
-
-.plastic_first {
-  width: 647px;
-  height: 88px;
-}
-
-.plastic_second {
-  padding-top: 50px;
-  width: 647px;
+  width: 583px;
   height: 132px;
-  line-height: 44px;
+  margin: 0 auto;
 }
-
-.cards {
+.plastic_waste .container .section_header h3 {
+  font-size: 36px;
+  line-height: 44px;
+  color: #006450;
+}
+.plastic_waste .container .cards {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
-.btn {
-  background-color: red;
-  width: 30px;
-  height: 200px;
+.plastic_waste .container .cards .card {
+  width: 683px;
+  height: 683px;
+  color: #FFFAEF;
+  margin-top: 30px;
+  position: relative;
 }
+.plastic_waste .container .cards .card .card_header {
+  position: absolute;
+  top: 13px;
+  left: 120px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+}
+.plastic_waste .container .cards .card .card_main {
+  position: absolute;
+  top: 67px;
+  right: 150px;
+  left: 120px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.plastic_waste .container .cards .card button {
+  background-color: #E1FF32;
+  border: transparent;
+  position: absolute;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 60px;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+}/*# sourceMappingURL=main.css.map */
