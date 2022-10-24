@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.4px;
+}
+a {
+  text-decoration: none;
+  color: $info_color;
+}
+.shop_now {
+  background-image: url("../../../image/Rectangle.jpg");
+  width: 100%;
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+    .main_text {
+      color: #fffaef;
+      font-weight: 200;
+      font-size: 30px;
+    }
+    button {
+      width: 201px;
+      height: 64px;
+      background-color: $button_color;
+      text-align: center;
+      border: none;
+      line-height: 64px;
+    }
+  }
+}
+.plastic_waste {
+  background-color: $section_background;
+  .container {
+    padding-top: 80px;
+    .line {
+      width: 1390px;
+      height: 2px;
+      background-color: $info_color;
+      margin: 0 auto;
+      margin-bottom: 60px;
+    }
+    .section_header {
+      text-align: center;
+      width: 583px;
+      height: 132px;
+      margin: 0 auto;
+      h3 {
+        font-size: 36px;
+        line-height: 44px;
+        color: #006450;
+      }
+    }
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .card {
+        width: 683px;
+        height: 683px;
+        color: $card_color;
+        margin-top: 30px;
+        position: relative;
+        .card_header {
+          position: absolute;
+          top: 13px;
+          left: 120px;
+          font-size: 36px;
+          font-weight: 400;
+          line-height: 44px;
+          text-transform: lowercase;
+        }
+        .card_main {
+          position: absolute;
+          top: 67px;
+          right: 150px;
+          left: 120px;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 26px;
+        }
+        button {
+          background-color: #e1ff32;
+          border: transparent;
+          position: absolute;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 60px;
+          bottom: 0;
+          width: 100%;
+          left: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+.early_access {
+  background-color: $section_background;
+  .container {
+    padding-top: 80px;
+    .line {
+      width: 1390px;
+      height: 2px;
+      background-color: $info_color;
+      margin: 0 auto;
+      margin-bottom: 27.5px;
+    }
+    .main_part {
+      display: flex;
+      justify-content: space-around;
+      .card {
+        width: 683px;
+        height: 683px;
+      }
+      .texts {
+        width: 683px;
+        position: relative;
+        .main_text {
+          position: absolute;
+          left: 50px;
+          top: 50%;
+          transform: translate(0, -50%);
+          width: 642px;
+          height: 186px;
+          text-align: center;
+          p {
+            font-weight: 400;
+            font-size: 56px;
+            line-height: 62px;
+            color: $info_color;
+          }
+        }
+        .sign_up_text {
+          position: absolute;
+          bottom: 10px;
+        left: 0;
+
+          width: 204px;
+          height: 16px;
+          p {
+            font-size: 24px;
+            line-height: 16px;
+            font-weight: 400px;
+            color: $info_color;
+            text-transform: lowercase;
+          }
+        }
+      }
+    }
+  }
+}
+.plastics {
+  background-color: $section_background;
+  .container {
+    padding-top: 80px;
+    .line {
+      width: 1390px;
+      height: 2px;
+      background-color: $info_color;
+      margin: 0 auto;
+      margin-bottom: 27.5px;
+    }
+    .main_part {
+      display: flex;
+      justify-content: space-around;
+      .main_text{
+        position: relative;
+      .single_use{
+        width: 647px;
+        height: 88px;
+        p{
+          font-size: 36px;
+          font-weight: 400px;
+          line-height: 44px;
+          letter-spacing: 0.4px;
+          color:$info_color;
+          text-transform: lowercase;
+        }
+      }
+      .plastic_fight{
+        margin: 60px 0;
+        width: 647px;
+        height: 132px;
+        p{
+          font-size: 36px;
+          font-weight: 400px;
+          line-height: 44px;
+          letter-spacing: 0.4px;
+          color:$info_color;
+        }
+      }
+      .plastic_crisis{
+        width: 209px;
+        height: 16px;
+        position: absolute;
+        bottom: 10px;
+        p{
+          font-size: 24px;
+          font-weight: 400px;
+          line-height: 16px;
+          letter-spacing: 0.4px;
+          color:$info_color;
+          text-transform: lowercase;
+        }
+      }
+    }
+    }
+  }
+}
