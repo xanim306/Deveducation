@@ -225,6 +225,84 @@ a {
     }
   }
 }
+.impact{
+  background-color: $section_background;
+  .container {
+    padding-top: 22.5px;
+    max-width: 1440px;
+    margin: 0 auto;
+    .line {
+      width: 1390px;
+      height: 2px;
+      background-color: $info_color;
+      margin: 0 auto;
+      margin-bottom: 27.5px;
+    }
+    .main_part {
+      display: flex;
+      justify-content: space-around;
+      .card {
+        width: 683px;
+        height: 683px;
+      }
+      .texts {
+        width: 683px;
+        position: relative;
+      
+        
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+        .main_text {
+          position: absolute;
+        
+          left: 25px;
+      top: 2px;
+          width: 600px;
+          height: 186px;
+          text-align:left;
+          
+          p {
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 44px;
+            color: $info_color;
+          }
+        }
+        .additional_text{
+          position: absolute;
+          left: 25px;
+          top: 150px;
+          width: 663px;
+          height: 132px;
+          
+          p{
+            font-size: 36px;
+            font-weight: 400px;
+            line-height: 44px;
+            color: $info_color;
+
+          }
+        }
+        .learn_more {
+          position: absolute;
+          bottom: 10px;
+       
+          width: 204px;
+          height: 16px;
+          p {
+            font-size: 24px;
+            line-height: 16px;
+            font-weight: 400px;
+            color: $info_color;
+            text-transform: lowercase;
+          }
+        }
+      }
+    }
+  }
+
+}
 #bottom{
   margin-top: 25px;
 }

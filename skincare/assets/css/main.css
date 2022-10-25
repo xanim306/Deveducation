@@ -358,6 +358,77 @@ a {
   text-transform: lowercase;
 }
 
+.impact {
+  background-color: #E5E5E5;
+}
+.impact .container {
+  padding-top: 22.5px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.impact .container .line {
+  width: 1390px;
+  height: 2px;
+  background-color: #006450;
+  margin: 0 auto;
+  margin-bottom: 27.5px;
+}
+.impact .container .main_part {
+  display: flex;
+  justify-content: space-around;
+}
+.impact .container .main_part .card {
+  width: 683px;
+  height: 683px;
+}
+.impact .container .main_part .texts {
+  width: 683px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.impact .container .main_part .texts .main_text {
+  position: absolute;
+  left: 25px;
+  top: 2px;
+  width: 600px;
+  height: 186px;
+  text-align: left;
+}
+.impact .container .main_part .texts .main_text p {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #006450;
+}
+.impact .container .main_part .texts .additional_text {
+  position: absolute;
+  left: 25px;
+  top: 150px;
+  width: 663px;
+  height: 132px;
+}
+.impact .container .main_part .texts .additional_text p {
+  font-size: 36px;
+  font-weight: 400px;
+  line-height: 44px;
+  color: #006450;
+}
+.impact .container .main_part .texts .learn_more {
+  position: absolute;
+  bottom: 10px;
+  width: 204px;
+  height: 16px;
+}
+.impact .container .main_part .texts .learn_more p {
+  font-size: 24px;
+  line-height: 16px;
+  font-weight: 400px;
+  color: #006450;
+  text-transform: lowercase;
+}
+
 #bottom {
   margin-top: 25px;
 }/*# sourceMappingURL=main.css.map */
