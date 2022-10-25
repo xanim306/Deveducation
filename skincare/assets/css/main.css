@@ -2,7 +2,8 @@ header {
   background-color: #FFFAEF;
 }
 header .nav_container {
-  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
   margin: 0 auto;
   padding-top: 25px;
 }
@@ -25,8 +26,10 @@ header .nav_container nav .logo {
   background-color: #E5E5E5;
 }
 .footer .container {
-  padding-top: 80px;
+  padding-top: 23px;
   padding-bottom: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .footer .container .line {
   width: 1390px;
@@ -148,7 +151,7 @@ a {
   background-size: cover;
 }
 .shop_now .container {
-  width: 90%;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -172,14 +175,16 @@ a {
   background-color: #E5E5E5;
 }
 .plastic_waste .container {
-  padding-top: 80px;
+  padding-top: 23px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .plastic_waste .container .line {
   width: 1390px;
   height: 2px;
   background-color: #006450;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 84px;
 }
 .plastic_waste .container .section_header {
   text-align: center;
@@ -196,12 +201,12 @@ a {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 107px;
 }
 .plastic_waste .container .cards .card {
   width: 683px;
   height: 683px;
   color: #FFFAEF;
-  margin-top: 30px;
   position: relative;
 }
 .plastic_waste .container .cards .card .card_header {
@@ -239,7 +244,9 @@ a {
   background-color: #E5E5E5;
 }
 .early_access .container {
-  padding-top: 80px;
+  padding-top: 23px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .early_access .container .line {
   width: 1390px;
@@ -294,7 +301,9 @@ a {
   background-color: #E5E5E5;
 }
 .plastics .container {
-  padding-top: 80px;
+  padding-top: 23px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .plastics .container .line {
   width: 1390px;
@@ -347,4 +356,8 @@ a {
   letter-spacing: 0.4px;
   color: #006450;
   text-transform: lowercase;
+}
+
+#bottom {
+  margin-top: 25px;
 }/*# sourceMappingURL=main.css.map */
