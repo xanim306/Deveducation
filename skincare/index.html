@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Document</title>
+    <script src="./assets/js/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -32,17 +33,65 @@
         </nav>
       </div>
     </header>
-    <div class="shop_now">
-      <div class="container">
-        <div class="main_text">
-          <h3>
-            Our best-selling refillable deodorant, in a new scent for summer.
-          </h3>
-          <h3>Shop Lemongrass</h3>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="shop_now">
+          <img src="./image/Rectangle.jpg" alt="image" class="slides_image">
+          <div class="container">
+            <div class="main_text">
+              <h3>
+                Our best-selling refillable deodorant, in a new scent for summer.
+              </h3>
+              <h3>Shop Lemongrass</h3>
+            </div>
+            <button>Shop Now</button>
+          </div>
         </div>
-        <button>Shop Now</button>
       </div>
-    </div>
+      
+      <div class="mySlides fade">
+        <div class="shop_now">
+          <img src="./image/Rectangle_1.jpg" alt="image" class="slides_image">
+          <div class="container">
+            <div class="main_text">
+              <h3>
+                Our best-selling refillable deodorant, in a new scent for summer.
+              </h3>
+              <h3>Shop Lemongrass</h3>
+            </div>
+            <button>Shop Now</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="shop_now">
+          <img src="./image/Rectangle_2.jpg" alt="image" class="slides_image">
+          <div class="container">
+            <div class="main_text">
+              <h3>
+                Our best-selling refillable deodorant, in a new scent for summer.
+              </h3>
+              <h3>Shop Lemongrass</h3>
+            </div>
+            <button>Shop Now</button>
+          </div>
+        </div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+    
     <div class="plastic_waste">
       <div class="container">
         <div class="line"></div>
@@ -53,60 +102,7 @@
           </h3>
         </div>
         <div class="cards">
-          <div class="card">
-            <img src="./image/Rectangle (1).jpg" alt="shower_routine" />
-            <div class="card_header">
-              <h3>Shower Routine Set— $46</h3>
-            </div>
-            <div class="card_main">
-              <p>
-                All-natural shampoo,conditioner formulated to nourish your hair
-                & skin.Get $26 off.
-              </p>
-            </div>
-            <button>Quick Add</button>
-          </div>
-          <div class="card">
-            <img src="./image/Rectangle (2).jpg" alt="summer_routine" />
-            <div class="card_header">
-              <h3>Summer Routine Set— $50</h3>
-            </div>
-            <div class="card_main">
-              <p>
-                Best sellers that are great for travel, including in our new
-                Lemongrass scent.Get $15 off.
-              </p>
-            </div>
-            <button>Quick Add</button>
-          </div>
-          <div class="card" id="bottom">
-            <img src="./image/Rectangle (3).jpg" alt="dental_routine" />
-            <div class="card_header">
-              <h3>Dental Routine Set— $46</h3>
-            </div>
-            <div class="card_main">
-              <p>
-                Toothpaste,mouthwash,floss formulated for healthy teeth designed
-                for a healthy planet.Get $9 off.
-              </p>
-            </div>
-            <button>Quick Add</button>
-          </div>
-          <div class="card" id="bottom">
-            <img src="./image/Rectangle (4).jpg" alt="hair_care__routine" />
-
-            <div class="card_header">
-              <h3>Hare Care Set— $46</h3>
-            </div>
-            <div class="card_main">
-              <p>
-                All natural shampoo and conditioner formulated to cleanse
-                hydrate your hair.Get $15 off.
-              </p>
-            </div>
-
-            <button>Quick Add</button>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -115,14 +111,12 @@
         <div class="line"></div>
         <div class="main_part">
           <div class="card">
-            <img src="./image/Rectangle (5).jpg" alt="sign_up" />
+            <img src="./image/Rectangle_5.jpg" alt="sign_up" />
           </div>
           <div class="texts">
-            <div class="main_text">
-              <p>
-                Get early access to new products by signing up for bH texts.
-              </p>
-            </div>
+              <div class="main_text">
+                <p>Get early access to new products by signing up for bH texts.</p>
+              </div>
             <div class="sign_up_text">
               <p>Sign Up for Texts</p>
             </div>
@@ -137,69 +131,46 @@
           <div class="main_text">
             <div class="single_use">
               <p>
-                EVERY DAY, 28,000 TONS of single-use plastic is disposed into
-                our oceans.
+                EVERY DAY, 28,000 TONS of single-use plastic is disposed into our
+                oceans.
               </p>
             </div>
             <div class="plastic_fight">
               <p>
-                Starting today, you can fight this flow of plastic waste, just
-                by getting ready in the morning.
+                Starting today, you can fight this flow of plastic waste, just by
+                getting ready in the morning.
               </p>
             </div>
             <div class="plastic_crisis">
               <p>The Plastic Crisis</p>
             </div>
           </div>
-          <div class="card">
-            <img src="./image/Rectangle (6).jpg" alt="plastic_crisis" />
-          </div>
+        <div class="card">
+          <img src="./image/Rectangle_6.jpg" alt="plastic_crisis">
+        </div>
         </div>
       </div>
     </div>
-    <div class="impact">
-      <div class="container">
-        <div class="line"></div>
-        <div class="main_part">
-          <div class="card">
-            <img src="./image/Rectangle(7).jpg" alt="clean_ingredient" />
-          </div>
-          <div class="texts">
-            <div class="main_text">
-              <p>Formulated with purpose,designed for impact.</p>
-            </div>
-            <div class="additional_text">
-              <p>
-                Our products are made with clean ingredients — sourced and
-                formulated for your body and our planet.
-              </p>
-            </div>
-            <div class="learn_more">
-              <p>learn more</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="footer">
     </div>
-    <div class="footer"></div>
     <div class="footer">
       <div class="container">
         <div class="line"></div>
         <div class="main_links">
           <div class="help_container">
             <div class="help">
-              <p>Help -</p>
+              <p>Help - </p>
             </div>
             <div class="footer_links">
               <a href="" class="link_first">FAQ</a>
               <a href="" class="link_second">Your Account</a>
               <a href="" class="link_third">E-mail Us</a>
               <a href="" class="link_fourth">Text Us</a>
-            </div>
+            </div> 
           </div>
           <div class="connect_container">
             <div class="connect">
-              <p>Connect -</p>
+              <p>Connect -  </p>
             </div>
             <div class="footer_links">
               <a href="" class="link_first">Careers</a>
@@ -209,7 +180,7 @@
           </div>
           <div class="info_container">
             <div class="info">
-              <p>Info -</p>
+              <p>Info -  </p>
             </div>
             <div class="footer_links">
               <a href="" class="link_first">Returns + Guarantee</a>
@@ -217,10 +188,10 @@
               <a href="" class="link_third">Privacy Policy</a>
               <a href="" class="link_fourth">Accessibility</a>
             </div>
-          </div>
+        </div>
           <div class="community_container">
             <div class="community">
-              <p>Community -</p>
+              <p>Community -  </p>
             </div>
             <div class="footer_links">
               <a href="" class="link_first">Instagram</a>
